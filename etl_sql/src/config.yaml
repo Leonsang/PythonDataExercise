@@ -1,0 +1,11 @@
+# Configuración de fuentes y destino para ETL
+source:
+  type: csv
+  path: ../data/input_data.csv
+destination:
+  type: sql
+  uri: sqlite:///../data/etl_demo.db
+  table: datos_procesados
+logging:
+  level: INFO
+  file: ../data/etl_sql.log

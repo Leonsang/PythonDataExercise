@@ -1,0 +1,15 @@
+[project]
+name = "api_to_sql_integration"
+version = "0.1.0"
+description = "Integración robusta de datos desde APIs REST a SQL con validación y logging."
+authors = ["Data Engineer <data@engineer.com>"]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests",
+    "pandas",
+    "sqlalchemy",
+    "loguru",
+    "pyyaml",
+    "uv",
+]

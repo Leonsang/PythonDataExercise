@@ -1,0 +1,9 @@
+# Configuración de reportes
+input:
+  db_uri: sqlite:///../data/reporting_demo.db
+  query: SELECT categoria, SUM(monto) as total FROM ventas GROUP BY categoria
+output:
+  report_dir: ../reports
+logging:
+  level: INFO
+  file: ../data/reporting.log

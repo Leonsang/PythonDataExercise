@@ -1,0 +1,11 @@
+# Configuración de integración API-SQL
+api:
+  url: https://jsonplaceholder.typicode.com/users
+  timeout: 10
+  retries: 3
+destination:
+  db_uri: sqlite:///../data/api_demo.db
+  table: usuarios_api
+logging:
+  level: INFO
+  file: ../data/api_to_sql.log

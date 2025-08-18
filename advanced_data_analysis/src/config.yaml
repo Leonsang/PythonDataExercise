@@ -1,0 +1,9 @@
+# Configuración de análisis
+input:
+  db_uri: sqlite:///../data/analysis_demo.db
+  table: ventas
+output:
+  report_dir: ../data/reports
+logging:
+  level: INFO
+  file: ../data/analysis.log

@@ -1,0 +1,14 @@
+[project]
+name = "etl_sql"
+version = "0.1.0"
+description = "Pipeline ETL robusto para migración y transformación de datos entre fuentes SQL y archivos."
+authors = ["Data Engineer <data@engineer.com>"]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas",
+    "sqlalchemy",
+    "pyyaml",
+    "loguru",
+    "uv",
+]

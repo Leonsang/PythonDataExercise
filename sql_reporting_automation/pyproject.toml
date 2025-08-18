@@ -1,0 +1,16 @@
+[project]
+name = "sql_reporting_automation"
+version = "0.1.0"
+description = "Automatización profesional de reportes y dashboards SQL con Python."
+authors = ["Data Engineer <data@engineer.com>"]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas",
+    "sqlalchemy",
+    "matplotlib",
+    "seaborn",
+    "loguru",
+    "pyyaml",
+    "uv",
+]
